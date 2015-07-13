@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Stuff]
+(
+[Id] [int] NOT NULL IDENTITY(1, 1),
+[StuffNumber] [int] NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Stuff] ADD CONSTRAINT [PK_Stuff] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
+GO
